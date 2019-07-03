@@ -1,0 +1,75 @@
+header {
+  min-height: 100vh;
+  margin-top: 55px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSybCj-QZFKyTotZoGlDmEM1Kkwo1hf5-H9t8kqfVyKjLo7poPj);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fFFFFF;
+}
+
+main {
+  scroll-behavior: smooth;
+}
+
+section {
+  align-items: center;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#portfolio {
+    color: white;
+  justify-content: center;
+  animation: panda 2s infinite;
+}
+
+@keyframes panda {
+  0% {
+    background-color: #000000;
+  }
+  16% {  
+    background-color: #0c0c0c;
+  }
+  32% {
+    background-color: #191919;    
+  }
+  48% {
+    background-color: #262626;
+  }
+  64% {
+    background-color: #191919;
+  }
+  80% {
+    background-color: #0c0c0c;    
+  }
+    
+  100% {
+    background-color: #000000;
+  }
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 10px;
+}
+
+#about {
+  background-color: #808080;
+  color: black;
+}
+
+#about img {
+  border-radius: 50%;
+  height: 50%;
+
+}
+
+.gray {
+color: white;
+}
